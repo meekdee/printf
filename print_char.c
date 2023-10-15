@@ -9,5 +9,9 @@
 int print_char(va_list list)
 {
 	_putchar(va_arg(list, int));
+<<<<<<< HEAD
 	return (1);
+=======
+	return(1);
+>>>>>>> dd24f11d9c409067340dc124fb0474ee0bb0d0a4
 }
