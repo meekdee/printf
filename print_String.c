@@ -9,7 +9,7 @@
 int print_String(va_list list)
 {
 	register short len = 0;
-	char *res, *s = va_arg(l, char *);
+	char *res, *s = va_arg(list, char *);
 	int count;
 
 	if (!s)
