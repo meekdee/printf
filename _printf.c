@@ -22,6 +22,10 @@ int _printf(const char *format, ...)
 		{"x", print_hex},
 		{"X", print_HEX},
 		{"S", print_String},
+		{"p", print_pointer},
+		{"r", print_rev},
+		{"R", print_rot13},
+		{NULL, NULL},
 	};
 	va_list arg_list;
 
